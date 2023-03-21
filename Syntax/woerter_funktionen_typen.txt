@@ -1,0 +1,14 @@
+Schlüsselworte:
+
+break       default         func        interface       select
+case        defer           go          map             struct  
+chan        else            goto        package         switch
+const       fallthrough     if          range           type
+continue    for             import      return          var
+
+
+vordefinierte in die Sprache integrierte Funktionen
+
+close       new             panic       complex         delete
+make        recover         real        len             append
+print       imag            cap         copy            println
