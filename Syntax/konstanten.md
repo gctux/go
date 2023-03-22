@@ -1,4 +1,4 @@
-### Konstanten
+# Konstanten
 
 - Deklaration wie Variablen
 ```

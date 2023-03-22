@@ -1,4 +1,4 @@
-### Variablen
+# Variablen
 
 ## Definition (Typ nach Namen, bei Wertzuweisung kein Typ nötig)
 ```

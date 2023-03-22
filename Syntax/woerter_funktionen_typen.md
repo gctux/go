@@ -1,5 +1,5 @@
 
-### Wörter, Funktionen und Typen
+# Wörter, Funktionen und Typen
 
 ## Schlüsselworte:
 ```
