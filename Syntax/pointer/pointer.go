@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func foo() *int {
+	bar := 123
+	return &bar
+}
+
 func main() {
 	var a int
 	var b *int // Typ Pointer auf int
@@ -10,4 +15,7 @@ func main() {
 	fmt.Println(b, *b)
 	*b = 100 // Dereferenzierung
 	fmt.Println(a)
+
+	c := foo()
+	fmt.Println(c, *c)
 }
