@@ -1,0 +1,3 @@
+### Eigene Typen
+
+- Definition mit `type`, danach Angabe des Basistyps 
