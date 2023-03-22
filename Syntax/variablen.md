@@ -1,3 +1,5 @@
+### Variablen
+
 ## Definition (Typ nach Namen, bei Wertzuweisung kein Typ nötig)
 ```
 var nummer int                      //Definition ohne Wert

@@ -1,3 +1,5 @@
+### Konstanten
+
 - Deklaration wie Variablen
 ```
 // einfache Deklaration
