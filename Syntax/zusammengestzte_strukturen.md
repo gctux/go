@@ -59,3 +59,23 @@ a := user {
 
 - Strukturen können auch einfach bei der Zuweisung der Variablen definiert werden.
 - Anwendungsfall: wenn die Struktur nur einmal verwendet wird
+
+```
+testfall := struct {
+    Input string
+    Expect string
+}{
+    "foo",
+    "bar",
+}
+```
+
+## Zusätzliche Informationen
+
+- In der Structdefinition können hinter dem Datenty zusätzliche Informationen stehen. -> Tags
+```
+type Adresse struct{
+    Straße string `json:"street"`
+    Stadt string `json:"city"`
+}
+```

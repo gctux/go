@@ -1,0 +1,20 @@
+git config --global user.email "lutz.herrmann@mailbox.org"
+git config --global user.email
+git config --global user.name "Lutz Herrmann"
+git config --global user.name
+git config --global init.defaultBranch main
+git config --global init.defaultBranch
+git config --global core.editor "code --wait"
+git config --global --edit
+git init
+git status
+git commit -m "commit 001"
+git branch -M main
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/gctux/go.git
+git push -u origin main
+git add .
+git commit -m "commit 001"
+git pull
+
