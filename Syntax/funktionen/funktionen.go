@@ -45,6 +45,16 @@ func meinFilter(s []string, filter filterFunc) []string {
 	return out
 }
 
+// defer Anweisungen hinter defer werden erst nach dem beenden der Funktion ausgeführt
+func meineFunktion() {
+	//anonyme Funktion
+	defer func() {
+		fmt.Println(1)
+		fmt.Println(2)
+	}()
+	fmt.Println(3)
+}
+
 func main() {
 	greeting := greet("Alice")
 	fmt.Println(greeting) //Output Hallo Alice
@@ -84,4 +94,6 @@ func main() {
 	s := []string{"a", "abcd", "abc", "ab"}
 	fmt.Println(meinFilter(s, f))
 
+	fmt.Println()
+	meineFunktion()
 }
