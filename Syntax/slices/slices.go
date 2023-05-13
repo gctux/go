@@ -25,4 +25,10 @@ func main() {
 	d := make([]int, 2, 8)
 	printSlice(d)
 
+	s := []string{"null", "eins", "zwei"}
+
+	for i, v := range s {
+		fmt.Printf("%02d: %s\n", i, v)
+	}
+
 }
